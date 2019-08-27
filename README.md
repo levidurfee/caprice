@@ -17,7 +17,7 @@ func main() {
 
 	// generate 10 integers in base 10 between 1 and 100 with no duplicates 
 	intArray, err := rng.GenerateIntegers(10, 1, 100, false)
-	fmt.Printf("%v, intArray)
+	fmt.Printf("%v", intArray)
 
 	// same as last time, but get back the entirety of the JSON response as a Result struct
 	result, err := rng.GenerateIntegersRaw(10, 1, 100, false)
